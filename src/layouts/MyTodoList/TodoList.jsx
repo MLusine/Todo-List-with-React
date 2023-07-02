@@ -5,7 +5,6 @@ const TodoList = () => {
   const [list, setList] = useState([]);
   const [input, setInput] = useState("");
 
-  let quantity = 0;
   const addTodo = (todo) => {
     const newTodo = {
       id: Math.random(),
